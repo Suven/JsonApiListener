@@ -1,0 +1,24 @@
+{
+    "name": "Suven/JsonApiListener",
+    "description": "JsonApiListener plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "friendsofcake/crud": "~4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsonApiListener\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JsonApiListener\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
